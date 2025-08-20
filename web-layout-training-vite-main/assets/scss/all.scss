@@ -1,0 +1,21 @@
+/*引入字體*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@import"variables.css";
+@import"base.css";
+
+@import"./helper/variables";
+@import"./helper/utils";
+
+@import"./base/reset";
+@import"./base/base";
+
+@import"./componets/brandcrumb";
+@import"./componets/buttom";
+
+
+@import "./layout/header";
+@import "./layout/footer";
+
+
+@import "./pages/index";
+@import "./pages/allproduct";
