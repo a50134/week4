@@ -1,0 +1,115 @@
+
+
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 0 12px;
+  
+}
+/*產品圖片*/
+.product-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 4px;
+}
+.product-col{
+    width: calc(100%/12*6);
+    padding: 0 4px;
+}
+@media(max-width: 767px){
+.product-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 4px;
+}
+.product-col{
+    width: calc(100%/4*4);
+    padding: 0 4px;
+}
+
+}
+/* 產品描述 */
+.del-price{
+    font-family: Noto Sans TC;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: var(--Neutral-500);
+    padding-left: -8px;
+}
+.product-color{
+    width: 64px;
+    text-align: center;
+    color: var(--Neutral-600);
+}
+.size{
+    border: 1px solid var(--Neutral-300);
+}
+.choice{
+  border-color: black;
+}
+.text-danger{
+    color: var(--Functional-Danger-300);
+}
+.plus .bi{
+    padding-right: 8px;
+}
+.plus{
+    display: flex;
+    gap: 8px;
+}
+.plus .btn{
+    width: 50%;
+}
+.btn-light{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: 1px solid var(--Neutral-900);
+    background-color:white;
+    color:var(--Neutral-900);
+}
+.btn-drak{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: none;
+    background-color: var(--Neutral-900);
+    color:white;
+}
+
+
+@media(max-width: 767px){
+  .product-img{
+    margin: 0 -12px;
+    max-width: calc(100% + 24px);
+  }
+    .plus .btn{
+    width: 80%;
+}
+.heart{
+    width: 20%;
+    padding: 12px 24px;
+    border: none;
+    background-color: white;
+}
+.maybelike-row {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+
+  .maybelike-list {
+    min-width: 300px;
+  }
+
+}

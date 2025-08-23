@@ -46,8 +46,9 @@
   display: flex;
 }
 .flex-wrap-m{
-  flex-wrap: wrap;
+ flex-wrap: wrap;
 }
+
 }
 
 @media(max-width: 576px){
@@ -142,51 +143,46 @@
 }
 
 @media(max-width: 767px){
-   .row-m{
-    margin-right: -6px;
-    margin-left: -6px;
-   }   
-    .col-m{
-    padding-left:6px;
-    padding-right: 6px;
-    width:calc(100%/4);
+
+  .row-m{
+   margin-right: -6px;
+   margin-left: -6px;
+  }   
+   .col-m{
+   padding-left:6px;
+   padding-right: 6px;
+   width:calc(100%/4);
 }
-    .col-2-m{
-    padding-left:6px;
-    padding-right: 6px;
-    width:calc(100%/4*2);
-    
+   .col-2-m{
+   padding-left:6px;
+   padding-right: 6px;
+   width:calc(100%/4*2);
+   
 }
 .col-3-m{
-   padding-left:6px;
-    padding-right: 6px;
-    width:calc(100%/4*3);
+  padding-left:6px;
+   padding-right: 6px;
+   width:calc(100%/4*3);
 }
 .col-4-m{
-  padding-left:6px;
-    padding-right: 6px;
-    width:calc(100%/4*4);
+ padding-left:6px;
+   padding-right: 6px;
+   width:calc(100%/4*4);
 }
 .flex-column-m{
     flex-direction: column;
 }
 .flex-nowrap-m{
-  flex-wrap: nowrap;
-}
-.gap-8-m{
-  gap: 8px;
+ flex-wrap: nowrap;
 }
 .gap-4-m{
-  gap: 4px;
+ gap: 4px;
+}
+.gap-8-m{
+ gap: 8px;
 }
 }
-@media(max-width: 767px){
-  .verflow-x-m{
 
-    overflow-x:auto;
-  }
-  
-}
 /* 段落 */
 .h1 {
   font-size: 40px;
@@ -234,7 +230,11 @@
   letter-spacing: 0.05em;
 }
 @media(max-width: 767px){
-  .h3-m{
+    .h1-m{
+    font-size: 40px;}
+    .h2-m{
+    font-size: 32px;}
+    .h3-m{
     font-size: 28px;}
     .h4-m{
     font-size: 24px;}
@@ -260,21 +260,35 @@
 /* 文字 */
 .text-sm {
   font-size: 14px;
-  font-weight: 400;
+ 
 }
-
+.text-lg {
+  font-size: 20px;
+  
+}
+@media(max-width: 767px){
+  .text-m{
+    font-size: 16px;
+  }
+}
 .text-white {
   color: var(--Neutral-0);
 }
-
+.text-n500 {
+  color: var(--Neutral-500);
+}
 .text-n600 {
   color: var(--Neutral-600);
 }
-
+.text-p300 {
+  color: var(--Primary-300);
+}
 .text-p400 {
   color: var(--Primary-400);
 }
-
+.text-p500 {
+  color: var(--Primary-500);
+}
 .bg-p100 {
   background-color: var(--Primary-100);
 }
@@ -298,9 +312,7 @@
 .py-48 {
   padding: 48px 0;
 }
-.py-24{
-  padding: 0 24px;
-}
+
 .py-32 {
   padding: 32px 0;
 }
@@ -341,12 +353,18 @@
    .p-24-m{
     padding: 24px;
    }
+   .py-24-m{
+    padding: 24px 0;
+   }
    .pr-8-m{
     padding-right: 8px;
   }
    
 }
 @media(max-width: 576px){
+  .py-40-s{
+    padding: 40px 0px;
+  }
    .py-32-s{
     padding: 32px 0;
    }
