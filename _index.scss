@@ -1,0 +1,243 @@
+
+/* 自設定 */
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+  
+}
+
+.Urben {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;  
+  padding: 289px 200px 288px 0;
+  position: relative;
+}
+@media(max-width: 767px){
+.Urben {
+
+    padding: 87px 0;
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true");
+    max-width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.header-position{
+    padding: 155px 24px 235px 24px;
+}
+.text-size-m{
+    font-size: 48px;
+}    
+.text-left{
+    text-align: left;
+}
+}
+h1{
+    
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: white;
+}
+h2{
+  
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: var(--neutral-900);
+}
+/* 定位在左上角 */
+.position{
+    position: relative;
+}
+.box1{
+    position: absolute;
+    top: 0;
+    left:30;
+    background-color: var(--Primary-100);
+    color: var(--Primary-400);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+    .star-img{
+        position: absolute;
+        bottom: 254px;
+        left: -32px;
+    }
+    .sparkle-img{
+        position: absolute;
+        bottom: 132px;
+        right: -32px;
+    }
+
+@media(max-width: 767px){
+    .star-img{
+        position: absolute;
+        top: 32px;
+        left: -20px;
+    }
+    .sparkle-img{
+        position: absolute;
+        bottom: 104px;
+        right: -28px;
+    }
+}
+.word-white{
+    color: white;
+}
+.word1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #ADB5BD;
+
+}
+.btn-g{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: none;
+    background-color: var(--Primary-300);
+    color:var(--neutral-900);
+}
+
+.mt-48{
+    margin-top: 48px;
+}
+.ml-0{
+    margin-left: auto;
+}
+.mr-0{
+    margin-right: auto;
+}
+.pb-32{
+    padding-bottom: 32px;
+}
+.pb-16{
+    padding-bottom: 16px;
+}
+.pd-64{
+    padding: 64px 0;
+}
+.pd-48{
+    padding: 48px 0;
+}
+.py-24{
+    padding: 0 24px;
+}
+text{
+    text-align: center;
+    
+
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+.banner{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 48px 0;
+}
+@media(max-width: 767px){
+    .banner{
+        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 48px 0;
+        overflow: hidden;
+    }
+}
+
+.menu1{
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 24px;
+}
+
+.word-align{
+    text-align: center;
+}
+.box2{
+    position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // width: 100%;
+    // text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;    
+    color:white;
+    background-color:rgba( black , 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+ .column-gap-8{
+    column-gap: 8px;
+ }
+ .row-gap-8{
+    row-gap: 8px;
+ }
+ .column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+img {
+  max-width: 100%;
+  min-width: 0;
+  display: block;
+  object-fit: cover;
+}
+
+
+.col-4-i{
+
+    width:calc(100%/12*4);
+}
+.col-8-i{
+  
+    width:calc(100%/12*8);
+}
+@media(max-width: 767px){
+    .maybelike-row {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+
+  .maybelike-list {
+    min-width: 300px;
+  }
+.d-none-m{
+    display: none;
+}
+
+.index-title {
+  font-size: 100px;
+
+}
+}
